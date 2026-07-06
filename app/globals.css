@@ -66,21 +66,21 @@ body {
   .mtns{height:220px !important;transform:scaleX(1.25);transform-origin:bottom center;}
   .headline{
     display:grid !important;
-    gap:6px !important;
+    gap:8px !important;
     letter-spacing:-0.03em !important;
-    max-width:14ch !important;
+    max-width:13ch !important;
     margin-inline:auto !important;
   }
   .headline span{
     display:block !important;
     white-space:nowrap !important;
-    font-size:clamp(21px,7.8vw,28px) !important;
-    line-height:1.02 !important;
+    font-size:clamp(17px,6.8vw,24px) !important;
+    line-height:1.08 !important;
     text-shadow:2px 2px 0 #8850AA,4px 4px 0 rgba(30,20,70,0.28) !important;
   }
   .hero{padding:40px 20px !important;}
   .hero-col{gap:22px !important;}
-  .headline{line-height:1.02 !important;}
+  .headline{line-height:1.08 !important;}
   .subhead{font-size:8px !important;letter-spacing:2px !important;line-height:2 !important;}
   .badge-text{line-height:2 !important;}
   .desc{font-size:12px !important;line-height:1.8 !important;}
