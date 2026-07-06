@@ -64,16 +64,22 @@ body {
   .nav-burger{height:auto !important;align-self:stretch !important;width:38px !important;}
   .nav-side:last-child a{font-size:8px !important;padding:11px 15px !important;box-shadow:4px 4px 0 #8850AA !important;}
   .mtns{height:220px !important;transform:scaleX(1.25);transform-origin:bottom center;}
-  .headline{display:grid !important;gap:2px !important;letter-spacing:-0.02em !important;}
+  .headline{
+    display:grid !important;
+    gap:6px !important;
+    letter-spacing:-0.03em !important;
+    max-width:11ch !important;
+    margin-inline:auto !important;
+  }
   .headline span{
     display:block !important;
-    font-size:clamp(23px,8.4vw,30px) !important;
-    line-height:0.95 !important;
-    text-shadow:2px 2px 0 #8850AA,4px 4px 0 rgba(30,20,70,0.35) !important;
+    font-size:clamp(21px,7.8vw,28px) !important;
+    line-height:1.02 !important;
+    text-shadow:2px 2px 0 #8850AA,4px 4px 0 rgba(30,20,70,0.28) !important;
   }
   .hero{padding:40px 20px !important;}
   .hero-col{gap:22px !important;}
-  .headline{line-height:0.96 !important;}
+  .headline{line-height:1.02 !important;}
   .subhead{font-size:8px !important;letter-spacing:2px !important;line-height:2 !important;}
   .badge-text{line-height:2 !important;}
   .desc{font-size:12px !important;line-height:1.8 !important;}
