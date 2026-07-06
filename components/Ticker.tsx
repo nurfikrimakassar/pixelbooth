@@ -5,7 +5,7 @@ const TEXT =
 
 const span: React.CSSProperties = {
   fontFamily: FP,
-  fontSize: 14,
+  fontSize: "clamp(9px,2.2vw,14px)",
   color: "#5A2E7A",
   letterSpacing: 2,
 };
@@ -18,7 +18,7 @@ export default function Ticker() {
         zIndex: 60,
         background: "#FFE040",
         overflow: "hidden",
-        padding: "22px 0",
+        padding: "clamp(10px,2.8vw,22px) 0",
         borderTop: "6px solid #8850AA",
         boxShadow: "0 -4px 0 rgba(30,20,70,0.3)",
       }}

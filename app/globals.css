@@ -64,7 +64,7 @@ body {
   .nav-burger{height:auto !important;align-self:stretch !important;width:38px !important;}
   .nav-side:last-child a{font-size:8px !important;padding:11px 15px !important;box-shadow:4px 4px 0 #8850AA !important;}
   .mtns{height:220px !important;transform:scaleX(1.25);transform-origin:bottom center;}
-  .headline span{display:inline !important;font-size:24px !important;text-shadow:3px 3px 0 #8850AA,5px 5px 0 #5A2E7A !important;}
+  .headline span{font-size:24px !important;}
   .hero{padding:40px 20px !important;}
   .hero-col{gap:22px !important;}
   .headline{line-height:1.35 !important;}
