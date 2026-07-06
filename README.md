@@ -39,10 +39,8 @@ lib/
 ## Catatan konversi dari mockup
 
 - Template binding `{{ countLabel/countColor/countGlow }}` → React state di `ArcadeCabinet` (interval 900ms).
-- Atribut `style-hover` (khas design-canvas) → class `:hover` di `globals.css`
-  (`.nav-tab`, `.btn-open`, `.btn-enter`, `.btn-browse`, `.btn-snap`).
+- Atribut `style-hover` (khas design-canvas) → class `:hover` di `globals.css` (`.nav-tab`, `.btn-open`, `.btn-enter`, `.btn-browse`, `.btn-snap`).
 - Script preloader & `window.pbMenu` → `useEffect`/`useState`.
-- Media query responsif dipertahankan 1:1 dan meng-override inline style via `!important`,
-  jadi perilaku mobile (hamburger, mountain scaleX, stats stacking) sama persis.
+- Media query responsif dipertahankan 1:1 dan meng-override inline style via `!important`, jadi perilaku mobile (hamburger, mountain scaleX, stats stacking) sama persis.
 - Semua inline style dikonversi ke object camelCase agar valid di React.
 - Link `OPEN BOOTH` / `ENTER BOOTH` / `BROWSE FRAMES` diarahkan ke `#` (halaman berikutnya belum di-slice).
