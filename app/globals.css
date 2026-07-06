@@ -68,11 +68,12 @@ body {
     display:grid !important;
     gap:6px !important;
     letter-spacing:-0.03em !important;
-    max-width:11ch !important;
+    max-width:14ch !important;
     margin-inline:auto !important;
   }
   .headline span{
     display:block !important;
+    white-space:nowrap !important;
     font-size:clamp(21px,7.8vw,28px) !important;
     line-height:1.02 !important;
     text-shadow:2px 2px 0 #8850AA,4px 4px 0 rgba(30,20,70,0.28) !important;
