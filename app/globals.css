@@ -87,10 +87,10 @@ body {
   .stats > div:last-child{border-bottom:none !important;}
   .stats > div > div:first-child{font-size:20px !important;margin:0 !important;}
   .stats > div > div:last-child{font-size:8px !important;}
-  .cabinet-body{padding:32px 10px 14px !important;}
+  .cabinet-body{padding:24px 8px 12px !important;}
   .screen-row{flex-direction:column !important;gap:14px !important;}
-  .preview-box{min-height:190px !important;}
-  .strip-grid{min-height:260px !important;}
-  .ctrl-panel{flex-wrap:wrap !important;gap:10px !important;justify-content:center !important;padding:10px !important;}
+  .preview-box{min-height:160px !important;}
+  .strip-grid{min-height:220px !important;}
+  .ctrl-panel{flex-wrap:wrap !important;gap:8px !important;justify-content:center !important;padding:8px !important;}
   .cta-row{flex-direction:column !important;}
 }
