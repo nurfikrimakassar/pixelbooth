@@ -93,6 +93,7 @@ body {
   .headline{line-height:1.08 !important;}
   .subhead{font-size:8px !important;letter-spacing:2px !important;line-height:2 !important;}
   .desc{font-size:12px !important;line-height:1.8 !important;}
+  .cabinet-body{box-shadow:0 0 0 4px #8850AA,8px 16px 0 rgba(30,20,70,0.55),0 0 60px rgba(160,140,255,0.25),inset 0 0 50px rgba(60,40,140,0.3) !important;}
   .stats{flex-direction:column !important;max-width:100% !important;}
   .stats > div{border-right:none !important;border-bottom:4px solid rgba(200,190,255,0.25) !important;padding:14px 10px !important;display:flex;align-items:center;justify-content:space-between;}
   .stats > div:last-child{border-bottom:none !important;}
