@@ -100,8 +100,9 @@ body {
   .stats > div > div:last-child{font-size:8px !important;}
   .cabinet-body{padding:24px 8px 12px !important;}
   .screen-row{flex-direction:column !important;gap:14px !important;}
-  .preview-box{min-height:160px !important;}
+  .preview-box{min-height:190px !important;}
   .strip-grid{min-height:220px !important;}
   .ctrl-panel{flex-wrap:wrap !important;gap:8px !important;justify-content:center !important;padding:8px !important;}
+  .ctrl-panel .btn-snap{font-size:8px !important;padding:14px 18px !important;box-shadow:4px 4px 0 #8850AA !important;}
   .cta-row{flex-direction:column !important;}
 }
